@@ -1,3 +1,2 @@
-nose
 scikit-build
 cmake
