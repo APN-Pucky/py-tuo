@@ -1,7 +1,0 @@
-/io/_skbuild/linux-x86_64-3.6/cmake-build/CMakeFiles/tuo.dir
-/io/_skbuild/linux-x86_64-3.6/cmake-build/CMakeFiles/edit_cache.dir
-/io/_skbuild/linux-x86_64-3.6/cmake-build/CMakeFiles/rebuild_cache.dir
-/io/_skbuild/linux-x86_64-3.6/cmake-build/CMakeFiles/list_install_components.dir
-/io/_skbuild/linux-x86_64-3.6/cmake-build/CMakeFiles/install.dir
-/io/_skbuild/linux-x86_64-3.6/cmake-build/CMakeFiles/install/local.dir
-/io/_skbuild/linux-x86_64-3.6/cmake-build/CMakeFiles/install/strip.dir

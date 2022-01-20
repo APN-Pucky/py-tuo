@@ -1,3 +1,0 @@
-/home/apn/git/tuo-pip/build/CMakeFiles/rebuild_cache.dir
-/home/apn/git/tuo-pip/build/CMakeFiles/edit_cache.dir
-/home/apn/git/tuo-pip/build/CMakeFiles/tuo.dir
