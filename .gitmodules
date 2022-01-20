@@ -1,0 +1,3 @@
+[submodule "tyrant_optimize"]
+	path = tyrant_optimize
+	url = git@github.com:APN-Pucky/tyrant_optimize.git
