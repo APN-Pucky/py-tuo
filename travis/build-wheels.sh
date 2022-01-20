@@ -12,7 +12,7 @@ function repair_wheel {
 
 
 # Install a system package required by our library
-yum install -y atlas-devel
+yum install -y boost boost-devel boost-static cmake
 
 # Compile wheels
 for PYBIN in /opt/python/*/bin; do
@@ -25,8 +25,8 @@ for whl in wheelhouse/*.whl; do
     repair_wheel "$whl"
 done
 
-# Install packages and test
-for PYBIN in /opt/python/*/bin/; do
-    "${PYBIN}/pip" install python-manylinux-demo --no-index -f /io/wheelhouse
-    (cd "$HOME"; "${PYBIN}/nosetests" pymanylinuxdemo)
-done
+## Install packages and test
+#for PYBIN in /opt/python/*/bin/; do
+    #"${PYBIN}/pip" install python-manylinux-demo --no-index -f /io/wheelhouse
+    #(cd "$HOME"; "${PYBIN}/nosetests" pymanylinuxdemo)
+#done
