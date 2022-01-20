@@ -11,7 +11,7 @@ setup_requires = pytest_runner
 
 setup(
     name="tuo",
-    version="0.0.4",
+    version="0.0.5",
     description="a minimal example package (cpp version)",
     author='The scikit-build team',
     license="MIT",
