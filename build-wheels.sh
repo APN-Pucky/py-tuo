@@ -10,10 +10,6 @@ function repair_wheel {
     fi
 }
 
-
-# Install a system package required by our library
-yum install -y boost boost-devel boost-static cmake
-
 # Compile wheels
 for PYBIN in /opt/python/*/bin; do
     "${PYBIN}/pip" install -r ./dev-requirements.txt
