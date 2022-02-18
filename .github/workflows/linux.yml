@@ -26,7 +26,9 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Dependencies
-        run: sudo apt-get install --yes g++ libboost-all-dev make cmake
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes g++ libboost-all-dev make cmake
 
       - name: Install deps
         run: |
